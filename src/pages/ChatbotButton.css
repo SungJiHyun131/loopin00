@@ -1,0 +1,23 @@
+.chatbot-button {
+    position:sticky;
+    bottom: 24px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    float: right;
+  }
+  
+  .chatbot-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .chatbot-button .red-dot{display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10px; /* 필요 시 간격 조절 */
+    vertical-align: middle;position: absolute;top: -2px;right: -10px;}

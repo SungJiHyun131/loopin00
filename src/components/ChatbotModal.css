@@ -1,0 +1,187 @@
+.chatbot-modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 430px;
+}
+
+.chatbot-modal .chatbot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding-bottom: 12px;
+ padding: 0 16px;
+ background: linear-gradient(to bottom, #5DABFF,#cee6ff);
+ max-width: 430px;
+}
+.chatbot-modal .chatbot-profile {display: flex;padding: 21px 0;align-items: center;}
+.chatbot-modal .chatbot-profile .profileImg {width: 60px;height: 60px;}
+.chatbot-modal .chatbot-profile .profileImg img {width: 100%;height: 100%;object-fit: cover;border: 1px solid #111;border-radius: 18px;}
+.chatbot-modal .chatbot-profile .rightText {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.chatbot-modal .chatbot-profile .rightText .name {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.chatbot-modal .chatbot-profile .rightText span {
+  font-size: 14px;
+  color: #333; 
+  margin-top: 4px;
+  font-weight: 400;
+  line-height: 1;
+  /* 사진처럼 '10:00 ~ 18:00' 텍스트 스타일 */
+}
+.chatbot-modal .chatbot-profile .rightText .time{position: relative;}
+.chatbot-modal .chatbot-profile .rightText .time::after {content: '';width: 6px;height: 6px;background: #7CFF71;border-radius: 50%;position: absolute;top: 50%;transform: translateY(-50%);right:-16px;border: 1px solid #111;animation: circle 1.5s ease infinite;}
+
+@keyframes circle {
+    0%{opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.chatbot-modal > button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.chatbot-modal > button img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.chatbot-modal .chatbot-body {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom,#71b6ff, #fff, #fff, #fff, #fff,#5DABFF);background-attachment: fixed;
+}
+
+.chatbot-modal .chatbot-conBox {
+  background: #ffffff;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 365px;
+  width: 100%;
+  border: 1px solid #111;
+}
+
+.chatbot-modal .profile {
+  display: flex;
+}
+
+.chatbot-modal .profile .img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #111;
+  flex-shrink: 0;
+}
+
+.chatbot-modal .profile .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chatbot-modal .profile .profile-name {
+  margin-left: 14px;
+}
+
+.chatbot-modal .profile .profile-name .name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #000;
+}
+
+.chatbot-modal .profile .profile-name .intro {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.2;
+}
+
+.chatbot-modal .askbtn {
+  margin-top: 14px;
+  background: linear-gradient(to bottom,#fff,#c9ffc7,#7cff71,#7cff71);
+  padding: 14px 0;
+  border-radius: 50px;
+  color: #111;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 388px;
+  text-decoration: none;
+  border: 1px solid #111;
+}
+
+.chatbot-modal .askbtn img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  width: 16px;
+  height: 14px;
+}
+
+.chatbot-modal .smallText {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.chatbot-modal .using {
+  font-size: 12px;
+  text-align: center;
+  color: #666666;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 388px;
+}
+
+.chatbot-modal .using img {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.chatbot-modal .askbtn {position: relative;}
+.chatbot-modal .red-dot {width: 6px;height: 6px;top: 20px;position: absolute;right: 100px;}

@@ -1,0 +1,99 @@
+.fancomment .comment-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 16px 20px 16px;
+}
+
+.fancomment .comment-profile-img {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fancomment .comment-content {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.fancomment .comment-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 6px;
+  font-weight: bold;
+}
+.fancomment .comment-header-left{display: flex;justify-content: center;align-items: center;}
+.fancomment .comment-user-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  margin-right: 3px;
+}
+
+.fancomment .comment-time {
+  color: #666;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.fancomment .comment-text {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.fancomment .comment-footer {
+  font-size: 13px;
+}
+
+.fancomment .comment-like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.fancomment .comment-reply {
+  padding-left: 46px;
+}
+
+/* ✅ 위치 조정용 */
+.fancomment .more-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.fancomment .more {
+  cursor: pointer;
+}
+
+.fancomment .bottomSheet {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  z-index: 100;
+  width: 70px;
+}
+
+.fancomment .bottomSheet button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  padding: 3px 0;
+  cursor: pointer;
+}

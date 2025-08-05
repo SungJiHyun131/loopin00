@@ -1,0 +1,64 @@
+.artist-c-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100vh;
+    padding-bottom: 80px;
+  }
+  
+  .feed-card {
+    display: flex;
+    align-items:start;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px 12px;
+    border: 1px solid #666;
+  }
+  
+  .feed-header {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .feed-profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+    flex-shrink: 0;
+    border: 1px solid #111;
+  }
+  
+  .feed-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    width: 210px;
+  }
+  
+  .feed-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.4;
+    white-space: pre-line;
+    margin-bottom: 4px;
+  
+  }
+  
+  .feed-time {
+    font-size: 10px;
+    color: #999;
+  }
+  
+  .feed-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: 10px;
+    flex-shrink: 0;
+    border: 1px solid #666;
+  }

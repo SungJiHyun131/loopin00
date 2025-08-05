@@ -1,0 +1,16 @@
+/* .bgSub{background:linear-gradient(to bottom,#5dabff, #fff,#5dabff);height: auto;} */
+.SubscribeHeader2{position: fixed;height: 70px;width: 100%;z-index: 90;background: #5dabff;max-width: 430px;}
+
+.container.SubscribeSelect{margin-top: 69px;background:linear-gradient(to top ,#5dabff,#fff,#5dabff);height: auto;min-height: 100vh;}
+
+.container.SubscribeSelect .top {text-align: center;display: flex;justify-content: center;flex-direction: column;}
+.container.SubscribeSelect .top h3 {margin-bottom: 10px;font-size: 18px;font-weight: 500;}
+.container.SubscribeSelect .top p {margin-bottom: 20px;font-size: 14px;color: #555;}
+.container.SubscribeSelect .searchbtn {background: #ddd;border-radius: 50px;padding: 12px;}
+.container.SubscribeSelect .SelectArtist-grid {display: grid;grid-template-columns: repeat(3,1fr);gap: 24px;margin: 15px auto;max-width: 360px;}
+.container.SubscribeSelect .complete-btn {position: fixed;bottom: 20px;left: 50%;transform: translateX(-50%);background: linear-gradient(to bottom,#fff, #E6E6E6,#fff);color: #111;padding: 14px 0;border-radius: 30px;font-weight: 500;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);animation: slideup 0.3s ease forwards;text-align: center;width: 340px;border: 1px solid #111;}
+
+@keyframes slideup {
+    from {transform: translate(-50%,100%);opacity: 0;}
+    to {transform: translate(-50%,0%);opacity: 1;}
+}

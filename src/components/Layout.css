@@ -1,0 +1,5 @@
+.mainhome{background: linear-gradient(#fff,#fff,#fff,#5DABFF,#5DABFF); background-attachment: fixed;}
+.mainhome main{padding-top: 80px;}
+.mainhome .mainbg{position: fixed;width: 100%;height: 70px;z-index: 0;}
+.mainhome header{position: fixed;height: 70px;box-shadow: 0 0 10px rgba(40,100,170,0.2);z-index: 999;}
+.mainbg img{width: 100%;height: 100%;object-fit: cover;max-width: 430px;}

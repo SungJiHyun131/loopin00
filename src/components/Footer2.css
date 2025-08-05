@@ -1,0 +1,12 @@
+
+.footer2{text-align: center; margin: 0px auto;padding: 40px 0;background: #fff;}
+
+
+.footer2 ul{display: flex;justify-content: center;}
+.footer2 ul li{border-right: 1px solid #ACAFB2;padding: 0 5px;font-size: 12px;color: #ACAFB2;}
+.footer2 ul li:last-child{border: none;}
+.footer2 ul li:nth-child(2){color:#007BFF ;}
+
+.footer2 p{color: #ACAFB2;font-size: 12px;margin-bottom: 5px;}
+.footer2 .subtxt3{color: #ACAFB2;font-size: 12px;margin-bottom: 0px;}
+.footer2 .blue{color: #83878A;font-size: 14px;margin-bottom: 8px;font-weight: 500;}

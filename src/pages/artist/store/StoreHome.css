@@ -1,0 +1,68 @@
+
+.StoreHeader{padding: 16px;padding-bottom:0px;position: fixed;z-index: 100;width: 100%;padding: 0;top: 0;max-width: 430px;}
+.storehd{position: fixed;top: 0;width: 100%;z-index: 90;height: 70px;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width: 430px;}
+.storehd img{width: 100%;height: 100%;object-fit: cover;}
+.storebg{width: 100%;position: fixed;height: auto;z-index: -1;max-width: 430px;}
+.storebg img{width: 100%;height: 100%;object-fit: cover;}
+
+.container.StoreHome{padding: 80px 16px 10px;background-attachment: fixed;}
+
+.container.StoreHome .banner{width: 100%; display: flex; justify-content: space-between;position: relative;}
+.container.StoreHome .banner img{width: 100%;}
+.container.StoreHome .banner .textBox{position: absolute; top:70%; margin-left: 15px;}
+.container.StoreHome .banner .textBox2{position: absolute; top:70%; margin-left: 15px;}
+.container.StoreHome .banner .textBox h3{margin-bottom: 5px; color: #000;}
+.container.StoreHome .banner .textBox2 h3{margin-bottom: 5px; color: #fff;}
+.container.StoreHome .banner .textBox p{color: #666666;}
+.container.StoreHome .banner .textBox2 p{color: #E5E5E5;}
+
+/* 카테고리 */
+.container.StoreHome .Products{margin-bottom: 80px;}
+.container.StoreHome .Products .Big ul{width: 100%; display: flex; overflow:scroll; white-space: nowrap; margin-top:15px; scrollbar-width: none;color: #999;}
+.container.StoreHome .Products .Big ul li{margin-right: 10px;transition: all 0.3s;padding-bottom: 5px;}
+.container.StoreHome .Products .Big ul li.underline{border-bottom: 1px solid #000; color:#000;transition: all 0.3s;}
+
+
+.container.StoreHome .Products .Small ul{width: 100%; display: flex; overflow:scroll; white-space: nowrap; margin-top: 10px; scrollbar-width: none;}
+.container.StoreHome .Products .Small ul li{border: 1px solid #000; border-radius: 50px; padding: 8px 10px; margin-right: 10px;background: #fff;color: #666;transition: all 0.3S;}
+.container.StoreHome .Products .Small ul li.active{background:linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff); color: #000;}
+
+
+/* 상품 컨테이너 */
+.container.StoreHome .Goods {width: 100%; margin-top: 15px;}
+.container.StoreHome .Goods ul.product-list {display: flex;flex-wrap: wrap;gap: 20px;}
+.container.StoreHome .Goods ul.product-list li {width: calc(50% - 10px); /* 두 개씩 가로 정렬 */
+}
+
+/* 상품 아이템 */
+.container.StoreHome .Goods .goods {width: 100%;display: flex;flex-direction: column;}
+.container.StoreHome .Goods .goods .img-container{position: relative; width: 100%;}
+.container.StoreHome .Goods .goods .img-container img {width: 100%; display: block;}
+.container.StoreHome .Goods .goods .img-container .soldout-overlay{
+    position: absolute; top: 0;left: 0;
+    display: flex;
+    align-items: center; justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(108, 108, 108, 0.45);
+    color: white; 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;}
+
+.container.StoreHome .Goods .goods:focus {border: 4px solid #7CFF71; outline: none; display: inline-block; }
+.container.StoreHome .Goods .goods img {width: 100%;}
+
+/* 상품 설명 */
+.container.StoreHome .Goods .goods .explain{border: 1px solid #000; padding: 8px; height: 88px; margin-top: -5px;background: #fff;}
+.container.StoreHome .Goods .goods .explain .name {font-size: 14px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis;margin-top: 3px;}
+
+.container.StoreHome .Goods .goods .explain .tag {display: flex;width: 100%;margin-top: 5px;}
+.container.StoreHome .Goods .goods .explain .tag .blue {color: #007BFF;border: 1px solid #007BFF;border-radius: 5px;font-size: 10px; padding: 2px;margin-right: 5px;}
+
+.container.StoreHome .Goods .goods .explain .tag .KR발송 {color: #9F9F9F;border: 1px solid #9F9F9F; border-radius: 5px;font-size: 10px;padding: 2px;}
+.container.StoreHome .Goods .goods .explain .price {display: flex;justify-content: space-between;margin-top: 4%;}
+.container.StoreHome .Goods .goods .explain .price h3 {font-size: 18px;font-weight: 400;}
+
+.container.StoreHome .Goods .red-dot {position: absolute;right: 0px;top: 8px;width: 6px;height: 6px;}

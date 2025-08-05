@@ -1,0 +1,119 @@
+.fanpostbg{position: fixed;width: 100%;height: 70px;z-index: 99;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width: 430px;}
+.fanpostbg img{width: 100%;height: 100%;object-fit: cover;}
+.fan-post-view{padding-top: 140px;}
+.FanHeader2{position:fixed ;width: 100%;z-index: 100;}
+.fan-post-view {
+    width: 100%;
+    padding: 100px 0px 80px;
+    box-sizing: border-box;
+    background: white;
+    max-width:430px ;
+  }
+  
+  .fan-post-view .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 16px;
+  }
+  
+  .left-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .Postcontainer .user-info .username {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .Postcontainer .user-info .username .mem{margin-left: 3px;}
+  
+ .Postcontainer .user-info .time {
+    font-size: 12px;
+    color: #666;
+  }
+  
+.Postcontainer .post-text p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    padding: 0 16px;
+  }
+  
+  .Postcontainer .post-images img {
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 0 16px;
+  }
+  
+  .Postcontainer .post-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding: 0 16px;
+  }
+  
+  .Postcontainer .post-footer img {
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  
+  .comment-list {
+    margin-bottom: 16px;
+  }
+  
+  .comment {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .comment-user {
+    font-weight: bold;
+    margin-right: 6px;
+  }
+  
+  .comment-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding:16px;
+    position:fixed;
+    bottom: -1px;
+    background: #fff;
+width: 100%;
+max-width: 430px;
+  }
+  
+  .comment-input input {
+    flex: 1;
+    padding: 10px 26px;
+    font-size: 16px;
+    border: 1px solid #666;
+    border-radius: 20px;
+    margin-right: 8px;
+    background: #f4f4f4;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);height: 45px;width: 307px;color: #999;
+  }
+  .comment-input input:focus{outline: none;}
+  
+  .comment-input button {
+    border: none;
+    cursor: pointer;
+  }
+  .PostView-artist{font-weight: 500;font-size: 16px;color: #333;padding: 30px 16px 20px 16px;}
+  .PostView-fan{font-weight: 500;font-size: 16px;color: #333;padding: 30px 16px 20px 16px;}
+  .Postcontainer .line{width: 100%;height: 10px;background: #eee;position: absolute;max-width: 430px;}
+
+
+  .comment-input .comment-send-icon{width: 35px;height: 35px;object-fit: cover;}
+  .Fanpostview-comment-icon img {width: 18px;height: 18px;object-fit: cover;}
+  .fan-post-view .comment-input .red-dot {width: 6px;height: 6px;position: absolute;right: 0;}

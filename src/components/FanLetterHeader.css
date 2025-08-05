@@ -1,0 +1,4 @@
+.title span{display: block;font-size: 12px;font-weight: 200;letter-spacing: 0;text-transform: uppercase;}
+.more-button.fan a {
+    transition: opacity 0.2s;
+  }

@@ -1,0 +1,22 @@
+.onlive-section {margin-top: 20px;}
+.onlive-title {font-size: 18px;font-weight: 700;margin-bottom: 10px;display: flex;align-items: center;}
+.onlive-card {position: relative;width: 100%;max-width: 400px;}
+.thumbnail-wrapper {position: relative;width: 100%;aspect-ratio: 16 / 9;overflow: hidden;border-radius: 8px;}
+.thumbnail-img { width: 100%;height: 100%;object-fit: cover;}
+.live-label {position: absolute; top: 8px; left: 8px; background-color: #FE5A58; color: white; padding: 4px 8px; font-size: 12px; border-radius: 4px; font-weight: 600;}
+
+.onlive-info {margin-top: 12px;display: flex;align-items: center;}
+.onlive-text {margin-left: 10px;}
+.onlive-title-text {font-weight: 500;font-size: 14px;}
+.onlive-artist-time { font-size: 14px;font-weight: 500;}
+.onlive-title .circle {width: 11px;height: 11px;background: #FE5A58;border-radius: 50%;display: inline-block;margin-right: 8px;animation: circle 2s ease-out infinite;}
+
+@keyframes circle {
+    0%{opacity: 1;}
+    50% {opacity: 0.2;}
+}
+
+.artist-profile {width: 100%;}
+.out-ring {width: 42px; height: 42px;border-radius: 50%;display: flex;justify-content: center;align-items: center;position: relative;  border: 1px solid #111;background: linear-gradient(135deg, #fff,#ff26b7, #fff);}
+.in-ring { width: 36px;height: 36px;border-radius: 50%;display: flex;justify-content: center;align-items: center;overflow: hidden;border: 1px solid #111;}
+.onlive-badge {position: absolute;bottom: -4px;left: 50%;transform: translateX(-50%);background-color: #ff26b7;color: white;font-size: 10px;padding: 2px 6px;border-radius: 12px 12px 12px 12px;}

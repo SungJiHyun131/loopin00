@@ -1,0 +1,104 @@
+.comment-card {
+  background-color: #fff;
+  border: 1px solid #666;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.06);
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3px;
+}
+
+.comment-header img {
+  margin-right: 6px;
+  image-rendering: auto;
+}
+
+.comment-username {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.comment-text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-left: 26px;
+  margin-bottom: 12px;
+}
+
+/* Reply 구조 */
+
+.replies {
+  margin-top: 12px;
+}
+
+.reply {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 12px;
+  position: relative;
+}
+
+
+.reply-line-img {
+  image-rendering: auto;
+  width: 29px;
+  height: 42px;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  left: 7px;
+}
+.reply-line-img  img {width: 100%;object-fit: cover;height: 100%;}
+
+.reply-content {
+  flex: 1;
+  margin-left: 36px;
+}
+
+
+.reply-header-inner {
+  display: flex;
+  align-items: top;
+  text-align: center;
+}
+
+.reply-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+}
+
+.reply-username {
+  font-weight: 500;
+  font-size: 16px;
+  color: #111;
+  margin-left: 15px;
+}
+
+.reply-header .badge-icon {margin-left: 5px;width: 15px;height: 15px;text-align: center;margin-top: 2px;}
+
+.reply-date {
+  font-size: 12px;
+  color: #c4c4c4;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.reply-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin-left: 45px;
+}

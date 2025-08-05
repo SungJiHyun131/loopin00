@@ -1,0 +1,48 @@
+.toggle-container {
+  position: relative;
+  display: flex;
+  height: 45px;
+  border: 1px solid #000;
+  border-radius: 999px;
+  background: #eee;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.toggle-bg {
+  position: absolute;
+  top: 1px;
+  height: calc(100% - 2px);
+  background:linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff);
+  border-radius: 999px;
+  z-index: 1;
+  transition: left 0.3s ease;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.toggle-btn {
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-btn.left {
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+.toggle-btn.right {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}

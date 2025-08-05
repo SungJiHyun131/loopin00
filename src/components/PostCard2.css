@@ -1,0 +1,135 @@
+
+/* 공통 스타일 */
+.post-card2 {
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+ border: 1px solid #ccc;
+  padding: 16px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  position: relative;
+}
+.post-card2 .red-dot{position: absolute;left: 3%;width: 6px;height: 6px;}
+.post-card2 .post-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.post-card2 .post-header .profile-img {
+  border: 1px solid #000;border-radius: 50%;
+}
+
+.post-card2 .post-header .username {
+  font-weight: 500;
+  font-size: 18px;
+}
+.post-card2 .left-group {
+  display: flex;
+  align-items: center;
+}
+.post-card2 .post-header .time {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+
+}
+
+.post-card2 .post-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  white-space: pre-line;
+  display: flex;justify-content: space-between;align-items: end;
+}
+
+.post-card2 .clamp-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;width: 85%;
+}
+
+.post-card2 .more-btn {
+  font-size: 16px;
+  color: #3b82f6;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.post-card2 .post-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #333;
+  padding: 10px 0 0 0;
+  align-items: center;
+}
+.post-card2 .post-footer span{display: inline-block;margin-right: 10px;align-items: center;}
+.post-card2 .post-footer span.like img {width: 100%;object-fit: cover;margin-right: 1px;}
+.post-card2 .post-footer span img {width: 18px;height: 18px;object-fit: cover;margin-right: 5px;}
+.post-card2 .post-footer .footer-left {display: flex;justify-content: space-between;}
+.post-card2 .post-footer .footer-left span {display: flex;justify-content: space-between;}
+.post-card2 .post-footer .footer-right img {width: 15px;height: 20px;object-fit: cover;}
+/* 이미지 레이아웃 */
+.post-card2 .single-img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.post-card2 .two-imgs {
+  display: flex;
+  gap: 8px;
+}
+.post-card2 .two-imgs img {
+  width: 50%;
+  object-fit: cover;
+  border-radius:4px;
+}
+
+.post-card2 .three-imgs {
+  display: flex;
+  gap: 8px;
+}
+.post-card2 .img-left {
+  width: 50%;
+  height: 308px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.post-card2 .img-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.post-card2 .img-top, .img-bottom {
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.post-card2 .four-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.post-card2 .four-imgs img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.post-card2 .username {align-items:center;display: flex;}
+.post-card2 .username-badge {margin-left: 4px;display: inline-block;}
+.post-card2 .post-images img {margin-bottom: 0;}
+.post-card2 .post-text p {margin-bottom: 0;}

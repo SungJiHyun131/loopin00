@@ -1,0 +1,5 @@
+
+.container.FanPostDetail{padding: 180px 0 0;}
+.recent{padding-left: 24px;}
+.fan-post-detail-container{padding-bottom: 100px;}
+.container.FanPostDetail .recent img {width: 19px;height: 18px;object-fit:cover;vertical-align: top;}

@@ -1,0 +1,10 @@
+.Live-artist-list-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scrollbar-width: none;
+  }
+  
+  .Live-artist-list-container::-webkit-scrollbar {
+    display: none;
+  }

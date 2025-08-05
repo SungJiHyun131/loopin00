@@ -1,0 +1,63 @@
+.replay-card {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #111;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .replay-thumbnail {
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 12px;
+    border: 1px solid #111;
+    width: 95px;
+    height: 102px;
+    image-rendering:auto;
+  }
+.replay-content {flex: 1;}
+  
+.replay-date {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .replay-title {
+    font-size: 14px;
+    font-weight: 600;
+    width: 80%;
+    line-height: 20px;
+  }
+  
+  .replay-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    width: 80%;
+  }
+  
+  .replay-hashtags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .replay-tag {
+    border-radius: 6px;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .replay-play-icon {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    image-rendering: auto;
+    width: 35px;
+    height: 35px;
+  }
+  

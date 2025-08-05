@@ -1,0 +1,12 @@
+
+
+
+.LiveHome {position: relative;}
+.container.LiveHome {margin-top: 75px;}
+
+.LiveHeader{height: 70px;position: fixed;top: 0;width: 100%;z-index: 999;}
+.LiveHeader .Liveheaderbg {position: fixed;top:0;z-index: -999;width: 100%;height: 70px;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width: 430px;}
+.LiveHeader .Liveheaderbg img {width: 100%;height: 100%;object-fit: cover;}
+
+.Livebg {position: fixed;top: 69px;z-index: -999;width: 100%;height:auto;max-width: 430px;}
+.Livebg img {width: 100%;height: 100%;object-fit: cover;}

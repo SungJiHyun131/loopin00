@@ -1,0 +1,49 @@
+.notification-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #666;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:rgba(255, 255, 255, 0.5);cursor: pointer;
+  }
+  .notification-card:hover{ background: linear-gradient(to bottom, #ffffff, #C9FFC7,#7CFF71,#fff);}
+
+  .profile-img {
+    margin-right: 12px;
+    width: 50px;height: 50px;border: 1px solid #000;
+  }
+  
+  .notification-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-title {
+    font-weight: 500;
+  }
+  
+  .notification-message {
+    font-size: 14px;
+    color: #333; display: flex;
+  }
+  .notification-time-box {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #999999;
+    margin-left: auto;
+  }
+  .notification-time {
+    color: gray;
+    font-size: 12px;
+margin-left: 5px; margin-right: 6px;
+  }
+
+  
+  .time-dot {
+    width: 6px;           /* 원 크기 */
+    height: 6px;
+    background-color: #2F59FF;  /* 파란색 */
+    border-radius: 50%;    /* 동그라미 */
+  }

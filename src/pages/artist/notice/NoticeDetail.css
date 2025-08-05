@@ -1,0 +1,15 @@
+.container.NoticeDetail{ padding: 100px 16px 150px;background: #fff;}
+.container.NoticeDetail .top{display: block; margin-bottom: 35px;}
+.container.NoticeDetail .top .pink{color: #FF006F;margin-bottom: 6px;}
+.container.NoticeDetail .top h3{font-size: 18px; font-weight: 500;margin-bottom:10px;}
+.container.NoticeDetail .top p{font-size: 15px; color: #8E8E8E;}
+.container.NoticeDetail .bottom{background: #F7F5F5; width: 100%; padding: 30px 20px;position: static;border-radius: 10px;}
+.container.NoticeDetail .bottom .txt{font-size: 16px; line-height: 1.6;}
+.container.NoticeDetail .bottom .txt .Notice{font-size: 18px; font-weight:500 ;}
+.container.NoticeDetail .bottom .btn{width: 235px; height: 52px; margin: 30px auto; border: 1px solid #000;background: linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff); text-align: center; line-height: 52px; border-radius: 50px;}
+
+.NoticeHeader2{position: fixed;width: 100%;}
+.NoticeDetailMain .bg-top {position: fixed;top: 0;width: 100%;height: 80px;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width: 430px;}
+.NoticeDetailMain .bg-top img {width: 100%;height: 100%;object-fit: cover;}
+.NoticeDetailMain .bg-bottom {position: fixed;bottom: 0;z-index: 1;width: 100%;height: 130px;max-width: 430px;}
+.NoticeDetailMain .bg-bottom img {width: 100%;height: 100%;object-fit: cover;}

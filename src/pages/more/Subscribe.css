@@ -1,0 +1,38 @@
+li{list-style: none;}
+a {color: inherit; text-decoration: inherit;}
+* {margin: 0;padding: 0; box-sizing: border-box;}
+
+.SubscribeHeader{position: fixed;height: 70px;width: 100%;z-index: 90;background: #5dabff;max-width: 430px;}
+
+.container.sub{margin-top: 69px;background:linear-gradient(to top ,#5dabff,#fff,#5dabff);min-height: 100vh;}
+.container.sub .topBox .ticket {position: relative;}
+.container.sub .topBox .ticket img {width: 100%;}
+.container.sub .topBox .ticket .ontext {position: absolute;top: 50%;left: 30px;transform: translateY(-50%);}
+.container.sub .topBox .ticket .ontext .name {font-weight: 600;font-size: 18px;margin-bottom: 10px;}
+.container.sub .topBox .ticket .ontext .price {font-weight: 600;font-size: 18px;margin-bottom: 10px;}
+.container.sub .topBox .ticket .ontext .price span {font-weight: normal;font-size: 16px;}
+.container.sub .topBox .ticket .ontext .smalltext {font-size: 12px;}
+.container.sub .topBox .ticket .subs {position: absolute;right: 38px;top: 50%;  writing-mode: vertical-lr;transform: translateY(-50%) rotate(180deg);}
+.container.sub .topBox .ticket.month {margin-bottom: 20px;position: relative;}
+.container.sub .topBox .ticket.month .red-dot{display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    vertical-align: middle;position: absolute;top: 25%;left: 30%;width: 6px;height: 6px;}
+
+.container.sub .infoBox {margin-top: 40px;}
+.container.sub .infoBox ul{width: 100%; margin: 0 auto;}
+.container.sub .infoBox ul li.btn img {display: block;}
+.container.sub .infoBox ul li.btn.a {width: 100%;height: 300px;}
+.infoBox ul {list-style: none;padding: 0;margin: 0;}
+.infoBox .btn {background: #fff;border: 1px solid #000;margin-bottom: 10px;border-radius: 5px;overflow: hidden;}
+.accordion-header {display: flex;justify-content: space-between;align-items: center;padding: 15px 20px; font-weight: 500;cursor: pointer;font-weight: 600;}
+.accordion-content {padding:10px 18px 30px;font-size: 14px;line-height: 1.5;}
+.accordion-header img {width: 20px;height: 20px;transition: transform 0.3s ease;}
+.accordion-header img.rotate {transform: rotate(180deg);}
+.accordion-content .a {margin-bottom: 8px;}
+.accordion-content .a p {margin-left: 8px;}
+.accordion-content .b {margin-bottom: 8px;}
+.container.sub .infoBox ul li {position: relative;}
+.container.sub .infoBox ul li .red-dot {position:absolute;left:10px;;width: 6px;height: 6px;top: 12px;}

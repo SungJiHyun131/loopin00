@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+.calendar-container {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  font-family: 'Pretendard', sans-serif;
+  position: relative;
+  border: 1px solid #000;
+}
+
+
+/* 기본 캘린더 세팅 */
+.react-calendar {
+  border: none;
+  background: transparent;
+  width: 100%;border-radius: 10px;
+}
+
+/* 네비게이션 (월 표시) */
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  background: linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff);border-radius: 10px 10px 0 0;border-bottom: 1px solid #000; 
+  height: 40px;line-height: 40px; 
+}
+
+/* 월 텍스트 버튼 */
+.react-calendar__navigation__label {
+  padding: 4px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+
+/* < > 버튼 */
+.react-calendar__navigation button {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.react-calendar__viewContainer{padding: 0 20px 20px;}
+/* 요일 텍스트 */
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+  color: #666;
+}
+
+/* 주말 색상 */
+.react-calendar__month-view__days__day--weekend {
+  color: #8B00CC;
+}
+
+/* 날짜 버튼 */
+.react-calendar__tile {
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 14px;
+  position: relative;
+}
+
+/* 오늘 날짜 */
+.react-calendar__tile--now {
+  background: rgba(170, 0, 255, 0.1);
+  color: #FF8EBF;
+}
+
+/* 선택된 날짜 */
+.react-calendar__tile--active {
+  background: #FF8EBF !important;
+  color: white !important;
+}
+
+/* 점 (이벤트 표시용) */
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #FF8EBF;
+  border-radius: 50%;
+  margin: 4px auto 0;
+}
+
+/* 일정 텍스트 */
+.event {
+  margin-top: 14px;
+  text-align: left;
+  font-size: 14px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.dot-text {
+  color: #000;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 8px;
+}
+   
+
+  
+
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: red;
+  }
+  
+  .react-calendar__tile--now {
+    background: #ddd;
+    color: #000;
+  }
+  

@@ -1,0 +1,17 @@
+.album-list-container {
+    padding: 24px;
+    background: #f8f5fb; /* 연보라 느낌의 배경 */
+  }
+  
+  .album-list-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .album-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;}
+  

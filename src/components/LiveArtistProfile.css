@@ -1,0 +1,45 @@
+.Live-artist-profile {
+    text-align: center;
+    width: 60px;
+    font-size: 12px;
+  }
+  
+  .outer-ring {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .inner-ring {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;/* 안쪽 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+  }
+  
+  .inner-ring img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+/* live활성화테두리 */
+  .outer-ring.live {
+    border: 1px solid #111; /* LIVE 테두리 */
+    background: linear-gradient(135deg, #fff,#ff26b7, #fff);
+  }
+  .outer-ring.live .inner-ring {border: 1px solid #111;}
+
+  .live-badge {position: absolute;bottom: -4px;left: 50%;transform: translateX(-50%);background-color: #ff26b7;color: white;font-size: 10px;padding: 2px 6px;border-radius: 12px 12px 12px 12px;}
+
+  .artist-name {margin-top: 6px;}

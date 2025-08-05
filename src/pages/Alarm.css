@@ -1,0 +1,16 @@
+.container.Alarm{padding: 70px 16px ;}
+.subtitle{margin-top: 30px;}
+.subtitle:first-child{margin-top: 0;padding-top: 16px;}
+.alarmhome{background: linear-gradient(#fff,#fff,#fff,#5DABFF,#5DABFF);background-attachment: fixed;}
+.today-notifications .notification-card{background: #fff;box-shadow: 2px 2px 1px rgba(0,0,0,1);}
+.alarmhome .alarmbg{position: fixed;width: 100%;height: 70px;box-shadow: 0 0 10px rgba(40,100,170,0.2);max-width: 430px;}
+.alarmhome .alarmbg img{width: 100%;height: 100%;object-fit: cover;}
+.AlarmHeader{position: fixed;width: 100%;height: 70px;}
+
+  .notification-message .time-dot {
+    display: none;
+  }
+  .today-notifications .time-dot {
+    display: inline-block;
+  }
+  

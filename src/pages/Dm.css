@@ -1,0 +1,25 @@
+
+.bgdm {background:linear-gradient(to bottom, #fff, #fff, #fff,#D3E8FF,#5dabff);min-height: 100vh;position: relative;}
+.dmheaderbg{position: fixed;width: 100%;height: 70px;box-shadow: 0 0 10px rgba(40,100,170,0.2);max-width: 430px;}
+.dmheaderbg img{width: 100%;height: 100%;object-fit: cover;}
+.DmHeader{margin-bottom: 30px;position: fixed;width: 100%;height: 70px;}
+.container.Dm{padding-top: 100px;}
+.container .message{margin-top: 30px;}
+.container .message h3, .container .recommend h3{font-size: 18px; margin: 15px 0;}
+.container .message ul li{display: flex; align-items: center; width: 100%; height: 90px;margin-bottom: 5px;}
+.container .message ul li img{width: 60px; height: 60px;}
+.container .message ul li .right{ width: 90%; margin: 10px 10px 0px 10px;border-bottom:1px solid #dedede;padding-bottom: 10px;}
+.container .message ul li .right .top{display: flex; justify-content: space-between; width: 100%;padding: 5px 0;}
+.container .message ul li .right .top .name{font-size: 16px;font-weight: 500;}
+.container .message ul li .right .top .date{font-size: 14px;color: #ccc;}
+.container .message ul li .right .content{font-size: 15px;line-height: 1.4;}
+
+.recommend h3 {margin-bottom: 10px;padding-left: 16px;}
+.recommend{margin-top: 35px;}
+.recommend ul{display: flex; overflow-x: auto; scrollbar-width: none;}
+.recommend ul li{margin-right: 14px;}
+.recommend ul li .img {width: 60px; height: 60px;margin-bottom: 4px;}
+.recommend ul li .img img{width: 100%;}
+.recommend ul li:first-child{padding-left: 16px;}
+.recommend ul li p{text-align: center; font-size: 14px;}
+.dmbg{position: absolute;bottom: 10%;}

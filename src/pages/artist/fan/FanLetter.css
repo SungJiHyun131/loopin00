@@ -1,0 +1,130 @@
+.fanletterbg{position: fixed;width: 100%;height: 100px;max-width: 430px;}
+.fanletterbg img{width: 100%;width: 100%;height: 100%;object-fit: cover;}
+.FanLetterHeader {position: fixed;top: 0;max-width: 430px;width: 100%;}
+
+.FanLetterContent textarea {
+    width: 100%;
+    height: 100vh;
+    margin: 99px auto;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    margin-bottom: 60px;
+    max-width: 430px;
+  }
+
+  .FanLetterContent textarea:focus {
+    outline: none;
+  }
+
+  .fanletter-toolbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding: 20px 16px;
+    background: #fff;
+    z-index: 100;
+    max-width: 430px;
+  }
+  
+  .fan-icon-btn {
+    background: none;
+    border: none;
+    margin-right: 10px;
+  }
+  .fan-icon-btn img
+  {width: 24px;height: 24px;object-fit: cover;}
+  .secret-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  /* 토글 스위치 CSS */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 18px;
+    margin-left: 5px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .fan-slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+  }
+  
+  .fan-slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .fan-slider {
+    background-color: #DABCF6;
+  }
+  
+  input:checked + .fan-slider:before {
+    transform: translateX(16px);
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    max-width: 430px;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 30px ;
+    border-radius: 16px;
+    text-align: center;
+    width: 320px;height: 200px;
+  }
+  .modal-content .real{font-weight: 500;font-size: 18px;margin-bottom: 10px;}
+  .modal-content .hey{font-size: 16px;color: #666;}
+  .modal-buttons button {
+    margin: 30px 5px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .modal-buttons button.letter-save{background:linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff);}
+
+  .FanLetterContent .red-dot {width: 6px;height: 6px;right: -14px;top:-4px;position: absolute;}

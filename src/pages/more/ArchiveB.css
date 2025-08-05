@@ -1,0 +1,65 @@
+.artist-b-container {
+font-family: 'Pretendard', sans-serif;
+padding-bottom: 80px;
+height: 100%;
+min-height: 100vh;
+}
+
+.artist-b-container .archive-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 16px;
+margin-bottom: 0;
+padding-bottom: 0;}
+
+.artist-b-container .archive-card {
+text-align: center;
+}
+
+.artist-b-container .archive-card img {
+width: 100%;
+height: auto;
+display: block;
+box-shadow:3px 3px 1px rgba(0,0,0,1);
+border-radius: 10px;
+border: 1px solid #111;
+}
+
+.artist-b-container .archive-card p {
+font-size: 14px;
+color: #111;
+margin-top: 10px;
+}
+
+
+/* 7번째 추가사항 */
+.artist-b-container .archive-card {
+  position: relative;
+}
+
+.artist-b-container .archive-card .plus-icon {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-weight: 300;
+  color: #666;
+}
+
+.archiveB-checkmark-overlay {
+  user-select: none;       /* 텍스트 드래그 방지 */
+  pointer-events: none;    /* 클릭 이벤트는 부모로 전달 */
+  color: #111;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 500;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid #111;
+}

@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+.card{background: #fff; border-radius: 10px;border: 1px solid #000;width: 100%;height: 220px;position: relative;font-family:  "Playfair", serif;}
+.card .pinkstar{position: absolute;top: 20px;left: -5px;opacity: 0.6;}
+.card .idbg{position: absolute;bottom: 10px;right: 20px;z-index: 0;opacity: 0.05;filter: invert(1);}
+.card .idcard{font-size: 18px;width: 100%;text-align: center;background: linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff);height: 40px;border-radius: 10px 10px 0 0;border-bottom: 1px solid #000;line-height: 40px;}
+.card .idbottom{display: flex;width: 90%;justify-content: space-between;margin: 0 auto;margin-top: 20px;position: relative;z-index: 2;}
+.card .idbottom .img{width: 100px;border: 1px solid #000;height: 141px;}
+.card .idbottom .img img{width: 100%;height: 100%;object-fit: cover;}
+.card .idbottom .idleft{width: 65%;display: flex;flex-direction: column;justify-content: space-between;}
+.card .idbottom .txt p{font-family:  "Playfair", serif;font-size: 18px;font-weight: 500;}
+.card .idbottom .txt span{font-family:  "Playfair", serif;font-size: 16px;}
+.card .idbottom .txt .name{display: flex;justify-content: space-between;width: 100%;padding: 5px 0;border-bottom: 1px solid #000;align-items: center;}
+.card .idbottom .txt .nickname{display: flex;justify-content: space-between;width: 100%;padding: 5px 0;border-bottom: 1px solid #000;align-items: center;}
+.card .idbottom .txt .intro{display: flex;justify-content: space-between;width: 100%;padding: 5px 0;border-bottom: 1px solid #000;align-items: center;}
+.card .idbottom .barcode{display: flex;justify-content: space-between;align-items: flex-end;}
+.card .idbottom .barcode .hello{ font-family: 'NeoDunggeunmo';color: #FF8EBF;font-size: 14px;}
+.card .idbottom .barcode .bar{height: 32px;}
+
+
+.swiper-pagination-bullet{background-color: none;margin-top: 20px;width: 5px;height: 5px;}
+.swiper-pagination-bullet-active{background-color: #8B00CC;}
+
+.swiper-button-next, .swiper-button-prev{display: none;}
+.swiper-button-next:after, .swiper-button-prev::after{font-size: 24px;}
+.swiper {
+    background: transparent;
+    position: relative;
+    padding-bottom: 40px; /* 페이지네이션 공간 */
+  }
+  
+  .swiper-slide {
+    background: transparent;
+ }
+  
+ .swiper-slide .card {
+  width: 100%;
+}
+  .swiper-pagination {
+    position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  }
